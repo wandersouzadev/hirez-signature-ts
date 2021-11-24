@@ -1,0 +1,48 @@
+{
+  "name": "hirez-signature-ts",
+  "version": "0.1.0",
+  "description": "Hirez signature",
+  "keywords": [
+    "hirez",
+    "hirez-api",
+    "smite",
+    "paladins"
+  ],
+  "scripts": {
+    "build": "rimraf lib && tsc"
+  },
+  "main": "./lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wandersouza77/hirez-signature-ts"
+  },
+  "author": "Wander Souza",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/node": "^16.11.9",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "git-commit-msg-linter": "^3.2.8",
+    "module-alias": "^2.2.2",
+    "prettier": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.2"
+  },
+  "_moduleAliases": {
+    "@": "lib"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
