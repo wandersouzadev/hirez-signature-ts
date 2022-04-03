@@ -1,1 +1,1 @@
-export * from './core/signature'
+export { HirezSignature } from "./core/signature";
