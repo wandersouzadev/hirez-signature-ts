@@ -1,12 +1,21 @@
-## Example
-npm i hirez-signature-ts
-```typescript
-import {HirezSignature} from 'hirez-signature-ts'
+## About
 
-const { signature, timestamp } = HirezSignature.createSignature({
-  hirezAuthKey: 'your api key',
-  hirezDevId: 'your dev id',
-  method: 'createsession',
-})
+hirez-signature-api is a helper for [Smite/Paladins/RealmRoyal api](https://webcdn.hirezstudios.com/hirez-studios/legal/smite-api-developer-guide.pdf).
 
+## Usage
+
+Using npm:
+
+```bash
+$ npm install hirez-signate-ts
 ```
+
+Using yarn:
+
+```bash
+$ yarn add hirez-signate-ts
+```
+
+## Example
+
+![alt text](./public/example.png "Code example")
