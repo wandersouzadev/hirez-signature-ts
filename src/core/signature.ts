@@ -1,7 +1,7 @@
 import { createHash } from "crypto";
 import { SignatureParams } from "../types";
 
-export class HirezSignature {
+export default class HirezSignatureTs {
   /**
    * Return formatted timestamp yyyyMMddHHmmss
    * @returns string
