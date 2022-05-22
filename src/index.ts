@@ -1,3 +1,3 @@
-import HirezSignatureTs from "./core/signature";
+import { HirezSignatureTs } from "./core/signature";
 
-export = HirezSignatureTs;
+export default HirezSignatureTs;
