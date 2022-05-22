@@ -18,4 +18,25 @@ $ yarn add hirez-signate-ts
 
 ## Example
 
-![alt text](./public/example.png "Code example")
+### JS
+
+```js
+const HirezSignatureTs = require("hirez-signature-ts").default;
+```
+
+### TS
+
+```ts
+import { HirezSignatureTs } from "hirez-signature-ts";
+```
+
+### Usage
+
+```ts
+// signature and timestamp ready for use
+const { signature, timestamp } = HirezSignatureTs.createSignature({
+  hirezAuthKey: "hirez auth key",
+  hirezDevId: "hirez dev id",
+  method: "any api method", // example: createsession
+});
+```
