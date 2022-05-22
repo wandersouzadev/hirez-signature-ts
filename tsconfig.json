@@ -1,22 +1,14 @@
 {
   "compilerOptions": {
-    "target": "ES2019",
+    "target": "ES2020",
     "module": "CommonJS",
-    "esModuleInterop": true,
-    "experimentalDecorators": true,
+    "moduleResolution": "Node",
     "skipDefaultLibCheck": true,
     "strict": true,
-    "baseUrl": "src",
-    "rootDir": "src",
     "outDir": "lib",
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
-    "paths": {
-      "@/*": [
-        "*"
-      ]
-    },
   },
   "include": [
     "src"
